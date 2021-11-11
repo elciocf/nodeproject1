@@ -112,7 +112,6 @@ describe('Todos', () => {
       })
       .set('username', userResponse.body.username)
       .expect(404);
-
     expect(response.body.error).toBeTruthy();
   });
 
